@@ -8,5 +8,6 @@ The implementation is developed entirely in **Python** using **PyTorch** for the
 
 The primary goal of this project is to compare the performance of DQN and Double DQN under the same environment and training conditions. In addition to the performance comparison, the project aims to provide a clear understanding of agent behavior during learning and to illustrate the transition from classical tabular reinforcement learning concepts to deep reinforcement learning methods through a clean, modular implementation.
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f324da11-7123-46a8-b211-cdcfc93482f9" />
+<img width="600" height="400" alt="lunar_lander" src="https://github.com/user-attachments/assets/3eecd699-c893-41fe-b7c9-a03e578af796" />
+
 
