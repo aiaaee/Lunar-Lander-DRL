@@ -10,4 +10,9 @@ The primary goal of this project is to compare the performance of DQN and Double
 
 <img width="600" height="400" alt="lunar_lander" src="https://github.com/user-attachments/assets/3eecd699-c893-41fe-b7c9-a03e578af796" />
 
+## Demo 
+
+The following demonstrations show the trained agents interacting with the Lunar Lander environment after completing the training process.
+
+
 
