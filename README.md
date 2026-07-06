@@ -26,3 +26,52 @@ The following demonstrations show the trained agents interacting with the Lunar 
 - Training and evaluation pipelines separated  
 - Performance comparison between DQN and Double DQN  
 
+
+## Project Structure
+
+```text
+Lunar-Lander-RL/
+├── configs/
+│   ├── dqn.yaml
+│   └── double_dqn.yaml
+│
+├── src/
+│   ├── agents/
+│   │   ├── dqn_agent.py
+│   │   └── double_dqn_agent.py
+│   │
+│   ├── networks/
+│   │   └── q_network.py
+│   │
+│   ├── memory/
+│   │   └── replay_buffer.py
+│   │
+│   ├── training/
+│   │   ├── train_dqn.py
+│   │   └── train_double_dqn.py
+│   │
+│   ├── evaluation/
+│   │   └── evaluate.py
+│   │
+│   └── utils/
+│       ├── plotting.py
+│       ├── logger.py
+│       └── seed.py
+│
+├── models/
+│   ├── dqn/
+│   └── double_dqn/
+│
+├── results/
+│   ├── plots/
+│   ├── videos/
+│   └── logs/
+│
+├── notebooks/
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+The project follows a modular structure that separates the agent, neural network, replay buffer, training pipeline, evaluation, and utility functions, making the codebase easier to maintain and extend.
