@@ -115,6 +115,20 @@ python src/training/train_double_dqn.py
 python src/evaluation/evaluate.py
 ```
 
+## Result 
+
+To evaluate the performance of the DQN and Double DQN agents on the LunarLander-v2 environment, both models were trained under identical experimental conditions for 2,000 episodes. For visualization purposes, the reward curves were plotted using 800 episodes, providing a clearer representation of the learning trends.
+
+The experimental results indicate that Double DQN achieved superior performance compared to the standard DQN model. Specifically, the DQN agent obtained an average reward of 245.3 and a best reward of 302.1. In contrast, the Double DQN agent achieved an average reward of 281.7 and a best reward of 319.8.
+
+
+<img width="583" height="455" alt="Double DQN - Lunar Lander (Main)" src="https://github.com/user-attachments/assets/a343c082-eaa7-465f-8bae-d73b21741c5c" />
+
+
+The reward-versus-episode curves further support these findings, showing that the Double DQN agent demonstrated more stable learning behavior and reached higher reward values during training. The improved performance can be attributed to the Double DQN mechanism, which reduces the overestimation bias commonly observed in standard DQN by separating action selection from action evaluation.
+
+Overall, the results demonstrate that Double DQN is more effective than DQN for the Lunar Lander task, achieving higher rewards and exhibiting more stable learning dynamics under the same training conditions.
+
 ## Future Work
 
 This project provides a baseline implementation of DQN and Double DQN for the Lunar Lander environment. Future improvements may include:
